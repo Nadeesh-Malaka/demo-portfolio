@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadeesh Malaka - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1>Nadeesh Malaka</h1>
+            <p>Web Developer | MERN Enthusiast | Content Creator</p>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    Hi, I’m Nadeesh Malaka, a passionate web developer specializing in the MERN stack. 
+                    I enjoy creating seamless user experiences and building scalable, innovative solutions.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects">
+                    <div class="project-card">
+                        <h3>Knowledge Sharing Platform</h3>
+                        <p>Built with Laravel and MySQL to enable users to share knowledge effectively.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Master Education Web Platform</h3>
+                        <p>Designed a web platform using PHP and MySQL to facilitate access to educational resources.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Quiz Game</h3>
+                        <p>A fun, interactive quiz game built in C programming.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contact-form" onsubmit="submitForm(event)">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <p>Have a question or want to collaborate? Feel free to reach out!</p>
+                <ul class="contact-info">
+                    <li>Email: <a href="mailto:nadeesh@example.com">nadeesh@example.com</a></li>
+                    <li>LinkedIn: <a href="https://linkedin.com/in/nadeeshmalaka" target="_blank">Nadeesh Malaka</a></li>
+                    <li>GitHub: <a href="https://github.com/nadeeshmalaka" target="_blank">nadeeshmalaka</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 Nadeesh Malaka. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
